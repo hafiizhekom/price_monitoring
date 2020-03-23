@@ -54,6 +54,9 @@ def getDetail():
         }
         return result
 
+@app.route('/')
+def index():
+    return "Powered by Flask 1.1.1"
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
