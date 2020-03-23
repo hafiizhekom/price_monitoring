@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 from data.app import Data
 import datetime
 app = Flask(__name__)
-data = Data('../data/db/db.json')
+data = Data('data/db/db.json')
 
 @app.route('/data', methods=['POST'])
 def setUrl():
