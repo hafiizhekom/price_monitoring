@@ -4,7 +4,7 @@ from data.app import Data
 
 class Scheduler():
   def schedule(self):
-    data = Data('../data/db/db.json')
+    data = Data('data/db/db.json')
     print('This job is run every hours.')
     for url in data.getUrl():
       data.updatePrice(url, data.crawlPrice(url))
