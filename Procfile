@@ -1,2 +1,2 @@
-clock: python scheduler/app.py
+clock: python app.py
 web: gunicorn wsgi:app
