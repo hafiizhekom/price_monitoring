@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a3f061b-211d-446e-ab30-27fc8fdde8c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
       <recent name="C:\Users\Gatau Ah\PycharmProjects\price_monitoring_scheduler\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app (1)">
+  <component name="RunManager" selected="Python.app">
     <configuration name="Python 3.8" type="PythonConfigurationType" factoryName="Python">
       <module name="price_monitoring_scheduler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,17 +83,14 @@
       <module name="price_monitoring_scheduler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scheduler" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scheduler/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/app.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -109,6 +104,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.app" />
       </list>
@@ -132,26 +128,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584990417730" />
+    <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584998614430">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1584998614430" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584993553990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584993553990" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1584994990955">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1584998644791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584994990955" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1584994990954">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584998644791" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1584998644791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584994990954" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1584994990954">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584998644791" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1584998644791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584994990954" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1584994990954">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584998644791" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1584998644791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584994990954" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584998644791" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1584992746967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
