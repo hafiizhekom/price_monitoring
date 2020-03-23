@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a3f061b-211d-446e-ab30-27fc8fdde8c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/db.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
