@@ -54,7 +54,6 @@ class Data():
     if curr_url != []:
       curr_url[0]['price'][str(now)]=price
     self.db.update({'price': curr_url[0]['price']}, Price.url == str(url))
-    print(self.db.all())
 
   def crawlPrice(self, url):
     req = requests.get(url)

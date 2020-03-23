@@ -11,6 +11,6 @@ class Scheduler():
 
 if __name__ == '__main__':
   scheduler = BlockingScheduler()
-  scheduler.add_job(Scheduler().schedule, 'interval', minutes=1)
+  scheduler.add_job(Scheduler().schedule, 'interval', hours=1)
   scheduler.start()
 
