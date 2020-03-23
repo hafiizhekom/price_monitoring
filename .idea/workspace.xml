@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4a3f061b-211d-446e-ab30-27fc8fdde8c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../price_monitoring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -86,6 +85,9 @@
       <module name="price_monitoring_scheduler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -102,8 +104,8 @@
     </configuration>
     <list>
       <item itemvalue="Python.Python 3.8" />
-      <item itemvalue="Python.app" />
       <item itemvalue="Python.app (1)" />
+      <item itemvalue="Python.app" />
     </list>
     <recent_temporary>
       <list>
@@ -155,9 +157,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584999378810" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1584999247526">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1584999855887">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584999247526" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584999855887" />
   </component>
 </project>
