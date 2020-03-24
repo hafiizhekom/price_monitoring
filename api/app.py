@@ -37,7 +37,7 @@ def getAll():
         "data": data_result
     }
 
-    return result
+    return result, 200
 
 @app.route('/data/detail', methods=['GET'])
 def getDetail():
