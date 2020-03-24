@@ -43,10 +43,11 @@ def getAll():
 def getDetail():
     url = request.args.get('url')
 
+    sumber_price = data.getPrice(url)
     price = []
 
-    for date in data.getPrice(url):
-        price.append({"date":date, "price":data.getPrice(url)[date]})
+    for date in sumber_price:
+        price.append({"date": date, "price": sumber_price[date]})
 
     data_result = {"url": url,"detail":data.crawlUrl(url), "price":price}
 
