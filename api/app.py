@@ -27,10 +27,10 @@ def setUrl():
 @app.route('/data', methods=['GET'])
 def getAll():
     data_result = {}
-    for url in data.getUrl():
+    for index, url in enumerate(data.getUrl()):
         list_price = data.getPrice(url)
         max_price = list_price[max(k for k in list_price)]
-        data_result[url] = {"current": data.crawlUrl(url), "last_price": {"date":max(k for k in list_price), "price":max_price}}
+        data_result[index] = {"url": url, "detail": data.crawlUrl(url), "last_price": {"date":max(k for k in list_price), "price":max_price}}
 
     result = {
         "response": True,
@@ -42,7 +42,7 @@ def getAll():
 @app.route('/data/detail', methods=['GET'])
 def getDetail():
     url = request.args.get('url')
-    data_result = {"current":data.crawlUrl(url), "price":data.getPrice(url)}
+    data_result = {"url": url, "detail":data.crawlUrl(url), "price":data.getPrice(url)}
 
     if url:
         result = {
