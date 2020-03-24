@@ -76,9 +76,12 @@ class Data():
       description = soup.find("meta", property="og:description")['content']
 
       if description == "":
-        description = soup.find('div', {'id': 'description'})
-        description = description.p.span.get("data-sheets-value")
-        description = json.loads(description)['2']
+        try:
+          description = soup.find('div', {'id': 'description'})
+          description = description.p.span.get("data-sheets-value")
+          description = json.loads(description)['2']
+        except:
+          description = ""
 
       result['title'] = title
       result['image'] = image
