@@ -42,7 +42,13 @@ def getAll():
 @app.route('/data/detail', methods=['GET'])
 def getDetail():
     url = request.args.get('url')
-    data_result = {"url": url,"detail":data.crawlUrl(url), "price":data.getPrice(url)}
+
+    price = []
+
+    for date in data.getPrice(url):
+        price.append({"date":date, "price":data.getPrice(url)[date]})
+
+    data_result = {"url": url,"detail":data.crawlUrl(url), "price":price}
 
     if url:
         result = {
