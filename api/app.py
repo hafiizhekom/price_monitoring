@@ -1,7 +1,10 @@
 from flask import Flask, jsonify, request
 from data.app import Data
 import datetime
+from flask_cors import CORS
+
 app = Flask(__name__)
+CORS(app)
 data = Data('data/db/db.json')
 
 @app.route('/data', methods=['POST'])
